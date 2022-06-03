@@ -411,6 +411,10 @@ data.forEach(x => {
     if(x.point > 20 && x.point<50){
         count += 1 ;
     }
+     //Task 3
+    if (x.email == 'Tristian7@yahoo.com'){
+        pointTris = x.point;
+      }
 });
 //task-1 output
 console.log('   ');
@@ -422,8 +426,6 @@ array.forEach(x =>{
          console.log(`point = ` + x.point) ;
         console.log(`full name = `+ x.firstName , x.lastName ) ;
         console.log(`company name = `+x.company) ;
-        console.log('   ');
-
     }
 )
 
@@ -434,12 +436,7 @@ console.log('Number of people having  points more than 20 & less than 50 are:');
 console.log('   ');
 console.log(count) ;
 
-//task-3
-data.forEach((x) => {
-    if (x.email == 'Tristian7@yahoo.com'){
-      pointTris = x.point;
-    }
-})
+//task-3 output
 console.log('   ');
 console.log('   ');
 console.log( `Tristian7@yahoo.com  point number =` +"  " + pointTris);
