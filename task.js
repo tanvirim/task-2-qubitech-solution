@@ -400,22 +400,26 @@ const data = [
         company: 'Bruen Group',
     },
 ];
-//task 1
+
+//start 
+
 array = [] ;
 count = 0 ;
 data.forEach(x => {
+    //task 1 condition
     if (x.point>50){
       array.push(x) ;
     }  
-    //Task 2
+    //Task 2 condition
     if(x.point > 20 && x.point<50){
         count += 1 ;
     }
-     //Task 3
+     //Task 3 condition
     if (x.email == 'Tristian7@yahoo.com'){
         pointTris = x.point;
       }
 });
+
 //task-1 output
 console.log('   ');
 console.log('   ');
@@ -435,6 +439,7 @@ console.log('   ');
 console.log('Number of people having  points more than 20 & less than 50 are:');
 console.log('   ');
 console.log(count) ;
+
 
 //task-3 output
 console.log('   ');
