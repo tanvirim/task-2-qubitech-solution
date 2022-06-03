@@ -421,33 +421,33 @@ data.forEach(x => {
 });
 
 //task-1 output
+console.log("\n");
 console.log("//task-1 output");
-console.log("\n\n\n");
 console.log('user containing minimum 50 points & sorting by the points:');
 console.log("\n");
 array.sort(function(x, y){return x.point-y.point});
 array.forEach(x =>{
-         console.log(`point = ` + x.point) ;
-        console.log(`full name = `+ x.firstName , x.lastName ) ;
-        console.log(`company name = `+x.company) ;
+        console.log(`point =   ` + x.point) ;
+        console.log(`full name =   `+ x.firstName , x.lastName ) ;
+        console.log(`company =   `+x.company) ;
+        console.log("\n\n");
     }
 )
 
 //task-2 output
-console.log("//task-2 output");
 console.log("\n\n");
+console.log("//task-2 output");
 console.log('Number of people having  points more than 20 & less than 50 are:');
 console.log("\n");
 console.log(count) ;
 
 
 //task-3 output
+console.log("\n\n");
 console.log("//task-3 output");
-console.log("\n\n");
 console.log( `Tristian7@yahoo.com  point number =` +"  " + pointTris);
-console.log("\n\n");
+console.log("\n");
  console.log('Emails with point number 77:');
- console.log("\n");
 data.forEach((x) => {
     if (x.point == pointTris )
         console.log(x.email);
