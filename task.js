@@ -403,8 +403,8 @@ const data = [
 
 //start 
 
-array = [] ;
-count = 0 ;
+let array = [] ;
+let count = 0 ;
 data.forEach(x => {
     //task 1 condition
     if (x.point>50){
