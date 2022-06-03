@@ -421,6 +421,7 @@ data.forEach(x => {
 });
 
 //task-1 output
+console.log("//task-1 output");
 console.log("\n\n\n");
 console.log('user containing minimum 50 points & sorting by the points:');
 console.log("\n");
@@ -433,6 +434,7 @@ array.forEach(x =>{
 )
 
 //task-2 output
+console.log("//task-2 output");
 console.log("\n\n");
 console.log('Number of people having  points more than 20 & less than 50 are:');
 console.log("\n");
@@ -440,6 +442,7 @@ console.log(count) ;
 
 
 //task-3 output
+console.log("//task-3 output");
 console.log("\n\n");
 console.log( `Tristian7@yahoo.com  point number =` +"  " + pointTris);
 console.log("\n\n");
