@@ -405,6 +405,7 @@ const data = [
 
 let array = [] ;
 let count = 0 ;
+let pointOfTristian = 0 ;
 data.forEach(x => {
     //task 1 condition
     if (x.point>50){
@@ -416,7 +417,7 @@ data.forEach(x => {
     }
      //Task 3 condition
     if (x.email == 'Tristian7@yahoo.com'){
-        pointTris = x.point;
+        pointOfTristian = x.point;
       }
 });
 
@@ -445,11 +446,11 @@ console.log(count) ;
 //task-3 output
 console.log("\n\n");
 console.log("//task-3 output");
-console.log( `Tristian7@yahoo.com  point number =` +"  " + pointTris);
+console.log( `Tristian7@yahoo.com  point number =` +"  " + pointOfTristian);
 console.log("\n");
  console.log('Emails with point number 77:');
 data.forEach((x) => {
-    if (x.point == pointTris )
+    if (x.point == pointOfTristian )
         console.log(x.email);
 })
 
